@@ -1,0 +1,193 @@
+/* tags selectors */
+
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Montserrat;
+
+}
+
+
+h1 {
+    font-size: 10rem;
+    margin: 50px auto 0;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    font-weight: normal;
+
+
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    margin-bottom: 0;
+}
+
+
+hr {
+    border: dotted 6px #baf1f1;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    width: 10%;
+    color: #b5f5f5;
+    margin: 100px auto;
+
+}
+
+hr:hover,
+p:hover,
+h1:hover,
+h2:hover,
+h3:hover {
+    color: #ff00ff;
+
+}
+
+/* class selectors */
+
+
+.skill-1 {
+    border-radius: 100%;
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+
+
+}
+
+.skill-2 {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+    margin-bottom: 50px;
+
+
+}
+
+.skill-1-text {
+
+    width: 90%;
+}
+
+.skill-2-text {
+
+    clear: left;
+    width: 90%;
+}
+
+/* clear est l'opposé de float ( on s'arragen pour que la limite gauche ou droiute du text ne s'enroule pas autour de l'élément) */
+
+/* .skill-2-text {
+
+    clear: right;
+} */
+
+/* 
+Float doit etre uniquement utiliisé pour enrouler les textes autour d'imlage, il vaut mieux utiliser les margint padding et border puor positionner */
+
+p {
+    line-height: 2;
+}
+
+.btn {
+
+    box-shadow: inset 0px -3px 7px 0px #29bbff;
+    background: linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+    background-color: #79bbff;
+    border-radius: 8px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: montserrat;
+    font-size: 20px;
+    padding: 9px 23px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #263666;
+    margin-bottom: 40px;
+
+}
+
+.btn:hover {
+    background: linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+    background-color: #0688fa;
+}
+
+.btn:active {
+    position: relative;
+    top: 1px;
+}
+
+
+.skill-row {
+    border-radius: 100%;
+    width: 50%;
+    margin: 100px auto 100px;
+    text-align: left;
+
+
+}
+
+
+.skill-row-2 {
+
+
+    width: 50%;
+    margin: 200px auto 200px;
+    text-align: left;
+
+
+}
+
+.bottom-cloud {
+    position: absolute;
+}
+
+.bio {
+    width: 30%;
+    margin: 0 auto 20px;
+}
+
+.top-cloud {
+    position: relative;
+    margin: 20px 0 0 400px;
+}
+
+.top-container {
+    background-color: #E3FDFD;
+
+}
+
+.middle-container {
+    margin-top: 100px;
+
+}
+
+.bottom-container {
+    padding: 40px;
+    background-color: #66BFBF;
+    color: white;
+
+
+
+}
+
+a:hover {
+    color: #a7e5e7;
+}
+
+.footer-link {
+    font-family: Montserrat;
+    text-decoration: none;
+    color: #007070;
+    margin: 10px;
+}
